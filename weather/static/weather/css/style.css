@@ -1,0 +1,202 @@
+/* html, body {
+    background-color:	 #c2f7c6;
+} */
+a {
+	color: #aaa;
+	font-family: "DM Sans";
+	font-weight:  700;
+	text-decoration: none;
+	padding-bottom:  5px;
+	border-bottom: 2px solid #aaa;
+}
+
+h1 {
+    text-align: center;
+	font-family: "Source Sans Pro";
+	font-size: 120px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+h2 {
+	font-family: "Source Sans Pro";
+	font-size: 50px;
+    text-align:center;
+}
+.comparison-header {
+    font-family: "Source Sans Pro";
+	font-size: 50px;
+    margin-left: 10%;
+    
+}
+#red-text{
+    color: rgb(255, 121, 121);
+}
+.alert {
+    font-family: "Source Sans Pro";
+    font-size: 65px;
+    text-align:center;
+    color: rgb(131, 6, 6);
+    background-color: rgb(252, 255, 203);
+}
+.compare-alert {
+    font-family: "Source Sans Pro";
+    font-size: 50px;
+    text-align:center;
+    color: rgb(128, 3, 3);
+    background-color: rgb(248, 255, 107);
+}
+
+
+h3 {
+	font-family: "Source Sans Pro";
+    text-align:center;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom:  30px;
+}
+
+h4 {
+	font-family: "Source Sans Pro";
+	font-size: 45px;
+	padding: 10px;
+	margin:  0px;
+}
+
+p {
+	font-family:  "Source Sans Pro";
+	font-weight: 400;
+	color: #444;
+}
+
+#phone-screen{
+    margin: auto;
+    width: 100%;
+}
+#main-weather-logo{
+    text-align:center;
+    font-size:60px;
+    width: 100%;
+    padding-left:50px;
+	padding-right:50px;
+	
+}
+#search{
+    text-align: right;
+    padding-right:80px;
+}
+#search a{
+	text-decoration: none;
+    color: black;
+}
+footer{
+    position: absolute;
+    background-color: pink;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    font-size:40px;
+    text-align:center;
+    padding:20px; 
+}
+footer a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    float:left;
+    width: 25%;
+
+}
+
+/* Style the tab */
+.tab {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    overflow: hidden;
+    border: 5px solid;
+    background-color: #86bbff;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    font-size: 45px;
+    width: 50%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #f7faff;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #f7faff;/*c*/
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding-left: 100px;
+    border: 1px solid #f7faff;/*c*/
+    border-top: none;
+  }
+  .weather-table {
+      /* background-color: #ffd86d; */
+      background-image: linear-gradient(rgb(249, 255, 168), rgb(255, 201, 139));
+  }
+  
+  /* comparison styling*/
+  .weather-card {
+	background-color: white;
+    margin-left:5%;
+    float: left;
+    width:43%;
+    margin-bottom:100px;
+    height:430px;
+    padding:20px 20px 7px 20px;
+	border-radius: 30px;
+	box-shadow: 20px 20px 100px 10px #ddd;
+	margin-bottom: 60px;
+    font-size: 30px;
+    font-family: "Source San Pro";
+    text-align: center;
+
+}
+
+#temperature {
+    border-radius: 25px;
+    font-size: 40px;
+    width: 270px;
+    overflow: hidden;
+    border: 5px solid;
+    background-color: #86bbff;
+}
+#edit {
+    border-radius: 25px;
+    font-size: 40px;
+    overflow: hidden;
+    border: 5px solid;
+    width: 150px;
+    background-color: #86bbff;
+    margin-left: 10%;
+}
+
+#home {
+    background-color: #86bbff;
+    font-size: 50px;
+    font-family: "Arial";
+    text-align: center;
+
+}

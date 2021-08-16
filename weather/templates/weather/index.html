@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home Page</title>
+
+	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+
+</head>
+
+<body style="background-image: linear-gradient(to right, rgb(212, 255, 241), rgb(223, 212, 255))">
+	<!-- replace this html -->
+	<div class="container">
+		<br/><br/><br/>
+		<h1>Sunny Side Up</h1>
+		<h2>Whether you're hiking or swimming, we've got the weather info for you!</h2>
+		<br/><br/>
+		<a href="/weather/forecast/" class="btn btn-primary btn-lg active" role="button" id="home"
+			aria-pressed="true">Forecast</a>
+			<br/><br/>
+		<a href="/weather/forecast/alert/" class="btn btn-primary btn-lg active" role="button" id="home"
+			aria-pressed="true">Forecast with alert</a>
+			<br/><br/>
+		<a href="/weather/comparison/" class="btn btn-primary btn-lg active" role="button" id="home"
+			aria-pressed="true">Comparison</a>
+			<br/><br/>
+		<a href="/weather/comparison/alert/" class="btn btn-primary btn-lg active" role="button" id="home"
+			aria-pressed="true">Comparison with alert</a>
+	</div>
+
+	<!-- /replace this html -->
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 # P1
-Weather Application prototype. 
+Weather Application prototype for the iPhone X. 
 
 A user can **search** for the weather forecast of a chosen city, 
 **compare** the forecast of serveral cities, **alert** the user of extreme weather conditions.

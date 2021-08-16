@@ -66,6 +66,11 @@ h4 {
 	margin:  0px;
 }
 
+#left {
+	text-align: left;
+    margin-left:2%;
+}
+
 p {
 	font-family:  "Source Sans Pro";
 	font-weight: 400;
@@ -197,6 +202,25 @@ footer a {
     background-color: #86bbff;
     font-size: 50px;
     font-family: "Arial";
+    text-align: center;
+
+}
+
+/* settings styling*/
+.card {
+	background-color: white;
+    margin-left:10%;
+    float: left;
+    width:80%;
+    margin-top: 5%;
+    margin-bottom:100px;
+    height:1200px;
+    padding:20px 20px 7px 20px;
+	border-radius: 30px;
+	box-shadow: 20px 20px 100px 10px #ddd;
+	margin-bottom: 60px;
+    font-size: 30px;
+    font-family: "Source San Pro";
     text-align: center;
 
 }
